@@ -1,0 +1,15 @@
+{
+  "owner_username": "admin",
+  "email": "alerts@example.com",
+  "organization": "my-org",
+  "projects": {
+    "my-web-app": {
+      "description": "Example Node/Postgres web app",
+      "subscriptions": [
+        ["nodejs:node.js"],
+        ["postgresql:postgresql"],
+        ["f5:nginx", "nginx:nginx"]
+      ]
+    }
+  }
+}

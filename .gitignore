@@ -40,3 +40,6 @@ docker/conf/default.conf.template
 # Ignore content of previews, but not the folder itself
 scheduler/tests/previews/*
 !scheduler/tests/previews/.gitkeep
+
+# Local provisioning config (describes private projects)
+docker/conf/subscriptions.json
